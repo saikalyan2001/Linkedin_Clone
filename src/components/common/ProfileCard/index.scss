@@ -1,0 +1,52 @@
+.profile-card {
+    width: auto;
+    height: auto;
+    background-color: whitesmoke;
+    margin: 30px;
+    border-radius: 5px;
+    padding: 20px;
+
+    .profile-info {
+        display: flex;
+        justify-content: space-between;
+
+        .right-info {
+            margin-top: 25px;
+            margin-right: 20px;
+            .college, 
+            .company {
+                font-family: system-ui, sans-serif;
+                color: rgb(0, 0, 0, 0.9);
+                font-size: 14px;
+                font-weight: 600;
+                line-height: 30px;
+            }
+            .company {
+                margin-top: -15px;
+            }
+        }
+    }
+    .edit-btn {
+        position: absolute;
+        right: 40px;
+        button {
+            cursor: pointer;
+        }
+    }
+
+    .userName {
+        font-family: system-ui, sans-serif;
+        color: rgb(0, 0, 0, 0.9);
+        font-weight: 600;
+        font-size: 24px;
+    }
+    .heading {
+        margin-top: -25px;
+        font-family: system-ui, sans-serif;
+        color: rgb(0, 0, 0, 0.9);
+        font-size: 16px;
+        font-weight: 400;
+        width: 300px;
+        line-height: 20px;
+    }
+}
